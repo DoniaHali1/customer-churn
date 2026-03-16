@@ -1,0 +1,30 @@
+# Data
+data/raw/*.csv
+!data/raw/.gitkeep
+data/processed/*.csv
+!data/processed/.gitkeep
+
+# Models
+models/*.pkl
+models/*.joblib
+!models/.gitkeep
+
+# Notebooks with outputs (optional: keep light notebooks)
+notebooks/*.ipynb
+!notebooks/.gitkeep
+
+# Environment
+venv/
+env/
+.env
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
